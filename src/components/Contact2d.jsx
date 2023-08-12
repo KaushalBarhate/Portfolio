@@ -60,7 +60,7 @@ const Contact2d = () => {
             <span className='text-white font-medium mb-4'>Subject</span>
             <input
               type='text'
-              name='subject'
+              name='email'
               value={form.email}
               onChange={handleChange}
               placeholder="What's your subject?"
