@@ -27,43 +27,64 @@ const Contact = () => {
     });
   };
 
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+
+  //   emailjs
+  //     .send(
+  //       import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+  //       import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+  //       {
+  //         from_name: form.name,
+  //         to_name: "Kaushal Barhate",
+  //         from_email: form.email,
+  //         to_email: "barhate.kaushal@gmail.com",
+  //         message: form.message,
+  //       },
+  //       import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+  //     )
+  //     .then(
+  //       () => {
+  //         setLoading(false);
+  //         alert("Thank you. I will get back to you as soon as possible.");
+
+  //         setForm({
+  //           name: "",
+  //           email: "",
+  //           message: "",
+  //         });
+  //       },
+  //       (error) => {
+  //         setLoading(false);
+  //         console.error(error);
+
+  //         alert("Ahh, something went wrong. Please try again.");
+  //       }
+  //     );
+  // };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
-
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Kaushal Barhate",
-          from_email: form.email,
-          to_email: "barhate.kaushal@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+  
+    // Construct the subject and body of the email
+    const subject = encodeURIComponent(`${form.email}`);
+    const body = encodeURIComponent(
+      `${form.message}`
+    );
+  
+    const mailtoLink = `mailto:barhate.kaushal@gmail.com?subject=${subject}&body=${body}`;
+  
+    window.location.href = mailtoLink;
+  
+    setForm({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
 
+  
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
@@ -80,7 +101,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
         >
-          <label className='flex flex-col'>
+          {/* <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
             <input
               type='text'
@@ -90,15 +111,15 @@ const Contact = () => {
               placeholder="What's your good name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
-          </label>
+          </label> */}
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>Subject</span>
             <input
-              type='email'
-              name='email'
+              type='text'
+              name='subject'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your subject?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>

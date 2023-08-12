@@ -1,4 +1,4 @@
-import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import { EarthCanvas, BallCanvas,  StarsCanvas } from './canvas';
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -8,8 +8,9 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-
-
+import Works2d from './Works2d';
+import About2d from './About2d';
+import Contact2d from './Contact2d';
 export {
   Hero,
   Navbar,
@@ -22,6 +23,8 @@ export {
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 
-  ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Works2d,
+  About2d,
+  Contact2d
 };

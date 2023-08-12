@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -18,10 +18,38 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white text-center`}>
             Hi, I'm <span className="text-[#915EFF]">Kaushal Barhate👋</span>
           </h1>
+
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a Fullstack Developer, Selenium Tester, AI and ML{" "}
             <br className="sm:block hidden" />
             Practitioner and Blockchain Developer
+          </p>
+          <p className="mt-2 text-white flex justify-center items-center mx-auto">
+            <a
+              href="https://www.linkedin.com/in/kaushalbarhate/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./Linkedin.png"
+                alt="linkedin"
+                className="w-10 h-10 "
+              />
+            </a>
+            <a
+              href="https://github.com/KaushalBarhate"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./github.png" alt="github" className="w-10 h-10 ml-2" />
+            </a>
+            <a
+              href="mailto:barhate.kaushal@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./gmail.png" alt="email" className="w-10 h-10 ml-2" />
+            </a>
           </p>
         </div>
       </div>

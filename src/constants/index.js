@@ -33,6 +33,11 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "resume",
+    title: "Resume",
+    drivelink:"https://drive.google.com/file/d/1TECDe9I3sFTFqvhGGZFpIKr5BHtZ2-jJ/view?usp=sharing",
+  },
+  {
     id: "contact",
     title: "Contact",
   },

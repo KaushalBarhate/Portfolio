@@ -57,7 +57,11 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
+              {nav.id=='resume'?
+              <a href={nav.drivelink} target="__blank">{nav.title}</a>
+              :
               <a href={`#${nav.id}`}>{nav.title}</a>
+              }
             </li>
           ))}
         </ul>
