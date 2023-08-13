@@ -1,19 +1,36 @@
-# Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
-![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
+# Kaushal Barhate's Portfolio
+
+![Kaushal Barhate's Logo](public/logo.png)
+
+## About Me
+
+Hi, I'm Kaushal Barhate👋, a Fullstack Developer, Selenium Tester, AI and ML Practitioner, and Blockchain Developer. I have extensive experience in JavaScript, React, Node.js, and blockchain technologies. My portfolio includes building decentralized applications, utilizing machine learning algorithms, and crafting augmented reality experiences. Let's collaborate on your next cutting-edge project!
+
+- **LinkedIn**: [Profile]("https://www.linkedin.com/in/kaushalbarhate/)
+- **GitHub**: [Profile]("https://github.com/KaushalBarhate)
+- **Email**: [Email Me](mailto:barhate.kaushal@gmail.com)
 
 ## Introduction
-The most impressive websites in the world use 3D graphics and animations to bring their content to life. Learn how to build your own ThreeJS 3D Developer Portfolio today! 
 
-In this course, you'll learn the following:
-- ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
-- React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
-- TailwindCSS - a popular utility-first CSS styling framework
-- Framer Motion - the most popular library used to bring your React website to life with animations
-You'll also learn how to:
-- Load, create and customize stunning 3D models and geometries with various lights, as well as understand the 3D world with a camera and positioning of an object in space.
-- Make your code reusable and scalable using Higher Order Components (HOCs) and other industry-standard best practices
-- Implement sending emails through a form on the website
-- Ensure responsiveness across all devices and improve your site's performance using Suspense and Preload.
+I thrive on technical challenges and am committed to delivering scalable and efficient solutions. My work experience ranges from internships at Bosch India and Backend Helping AI to a Web Developer Intern at Surya Nestbuild Limited.
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://jsmastery.pro
+## What I Have Done So Far
+
+### Work Experience
+
+- **Bosch India**: Summer Intern (May 2023 - June 2023)
+- **Backend Helping AI**: Software Engineer Intern (Jan 2022 – May 2023)
+- **Surya Nestbuild Limited**: Web Developer Intern (May 2021 – July 2021)
+
+## How to Run This Repository
+
+1. **Clone the Repository**: `git clone https://github.com/your-username/your-repo-name.git`
+2. **Navigate to the Directory**: `cd your-repo-name`
+3. **Install Dependencies**: `npm install`
+4. **Start the Development Server**: `npm run dev`
+5. **Open in Browser**: Navigate to `http://localhost:3000` in your browser.
+
+## Get in Touch
+
+Feel free to reach out to me through [LinkedIn]([your-linkedin-url](https://www.linkedin.com/in/kaushalbarhate/)), [GitHub]([your-github-url](https://github.com/KaushalBarhate)), or [Email](mailto:barhate.kaushal@gmail.com).
+
