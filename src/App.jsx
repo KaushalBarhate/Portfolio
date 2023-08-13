@@ -26,9 +26,8 @@ const App = () => {
         {!isMobile ? <About /> : <About2d />}
 
         <Experience />
-
+        <Tech />
         {!isMobile ? <Works /> : <Works2d />}
-        {!isMobile ? null : <Tech />}
         <div className="relative z-0">
           {!isMobile ? (
             <>
