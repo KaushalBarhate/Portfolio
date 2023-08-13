@@ -14,8 +14,6 @@ Hi, I'm Kaushal Barhate👋, a Fullstack Developer, Selenium Tester, AI and ML P
 
 I thrive on technical challenges and am committed to delivering scalable and efficient solutions. My work experience ranges from internships at Bosch India and Backend Helping AI to a Web Developer Intern at Surya Nestbuild Limited.
 
-## What I Have Done So Far
-
 ### Work Experience
 
 - **Bosch India**: Summer Intern (May 2023 - June 2023)
