@@ -6,8 +6,8 @@
 
 Hi, I'm Kaushal Barhate👋, a Fullstack Developer, Selenium Tester, AI and ML Practitioner, and Blockchain Developer. I have extensive experience in JavaScript, React, Node.js, and blockchain technologies. My portfolio includes building decentralized applications, utilizing machine learning algorithms, and crafting augmented reality experiences. Let's collaborate on your next cutting-edge project!
 
-- **LinkedIn**: [Profile]("https://www.linkedin.com/in/kaushalbarhate/)
-- **GitHub**: [Profile]("https://github.com/KaushalBarhate)
+- **LinkedIn**: [Profile](https://www.linkedin.com/in/kaushalbarhate/)
+- **GitHub**: [Profile](https://github.com/KaushalBarhate)
 - **Email**: [Email Me](mailto:barhate.kaushal@gmail.com)
 
 ## Introduction
@@ -32,5 +32,5 @@ I thrive on technical challenges and am committed to delivering scalable and eff
 
 ## Get in Touch
 
-Feel free to reach out to me through [LinkedIn]([your-linkedin-url](https://www.linkedin.com/in/kaushalbarhate/)), [GitHub]([your-github-url](https://github.com/KaushalBarhate)), or [Email](mailto:barhate.kaushal@gmail.com).
+Feel free to reach out to me through [LinkedIn](https://www.linkedin.com/in/kaushalbarhate/), [GitHub](https://github.com/KaushalBarhate), or [Email](mailto:barhate.kaushal@gmail.com).
 
