@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm an experienced software developer with deep proficiency in JavaScript, React, Node.js, and blockchain technologies. My portfolio includes building decentralized applications with web3 integration, utilizing machine learning algorithms for data analysis, and crafting augmented reality experiences.I thrive on technical challenges and am committed to delivering scalable and efficient solutions. Let's collaborate on your next cutting-edge project!
+        I'm a software developer with deep proficiency in JavaScript, React, Node.js, and blockchain technologies. My portfolio includes building decentralized applications with web3 integration, utilizing machine learning algorithms for data analysis, and crafting augmented reality experiences.I thrive on technical challenges and am committed to delivering scalable and efficient solutions. Let's collaborate on your next cutting-edge project!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
