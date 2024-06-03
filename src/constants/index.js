@@ -20,7 +20,8 @@ import {
   jobit,
   threejs,
   python,
-  firebase
+  firebase,
+  aiblocks
 } from "../assets";
 
 export const navLinks = [
@@ -35,7 +36,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    drivelink:"https://drive.google.com/file/d/1TECDe9I3sFTFqvhGGZFpIKr5BHtZ2-jJ/view?usp=sharing",
+    drivelink:"https://drive.google.com/file/d/1xlhTOKQlL_l9ylodX4wBYrbm2WdJrEVn/view?usp=sharing",
   },
   {
     id: "contact",
@@ -119,9 +120,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Founding Engineer",
+    company_name: "AiBlocks",
+    icon: aiblocks, 
+    date: "Nov 2022- Apr 2024",
+    points: [
+ "Developed a web-based AI image generator aiblocks.app, that utilizes stable diffusion models to generate unique and artistic images around 200 different types of images.",
+ "Implemented a credit system in AiBlocks, enabling users to generate AI images using credits as a form of virtual currency.",
+ "Scaled the application to handle hundreds of daily users spread across 10 countries.",
+ "Developed and implemented a robust token gating system for exclusive model access, effectively managed a daily user base of over 200 individuals, and has securely stored over 5,000,000 generated images.",
+ "Oversaw integration of latest technologies such as image to 3D models, Bitcoin inscriptions.",
+ "Integrated payment system in form of ethereum tokens",
+ "Introduced innovative comic strip generator, enabling users to create dynamic comic strips with resizable text boxes."
+    ],
+  },
+  {
     title: "Summer Intern",
     company_name: "Bosch India",
-    icon: bosch, // You need to provide the appropriate icon
+    icon: bosch, 
     date: "May 2023 - June 2023",
     points: [
       "Developed a graph conversion tool using VBA to automate the plotting of graphs for millions of data points.",
@@ -131,10 +147,10 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer Intern",
+    title: "Software Engineer",
     company_name: "Backend Helping AI",
-    icon: bhai, // You need to provide the appropriate icon
-    date: "Jan 2022 – May 2023",
+    icon: bhai, 
+    date: "Jan 2022 – Jan 2023",
     points: [
       "Led the development of a web3 game marketplace for a US-based client using React, Redux, and Sanity, allowing users to buy games with crypto, featuring separate game pages, bookmarks, and a unique carousel for featured games.",
       "Developed decentralized application with real-time graph database and express-based relay nodes, utilizing Svelte for frontend and svelte-web3 for Metamask integration and NFT retrieval.",
@@ -147,7 +163,7 @@ const experiences = [
   {
     title: "Web Developer Intern",
     company_name: "Surya Nestbuild Limited",
-    icon: surya, // You need to provide the appropriate icon
+    icon: surya, 
     date: "May 2021 – July 2021",
     points: [
       "Developed a dynamic and user-friendly website to showcase all construction projects, including news and blog articles relevant to the company.",

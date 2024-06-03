@@ -16,8 +16,9 @@ I thrive on technical challenges and am committed to delivering scalable and eff
 
 ### Work Experience
 
+- **AiBlocks**: Founding Engineer (Oct 2023 - April 2024)
 - **Bosch India**: Summer Intern (May 2023 - June 2023)
-- **Backend Helping AI**: Software Engineer Intern (Jan 2022 – May 2023)
+- **Backend Helping AI**: Software Engineer Intern (Jan 2022 – Jan 2023)
 - **Surya Nestbuild Limited**: Web Developer Intern (May 2021 – July 2021)
 
 ## How to Run This Repository

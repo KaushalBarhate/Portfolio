@@ -29,7 +29,7 @@ import surya from "./company/surya.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-
+import aiblocks from "./company/aiblocks.png";
 export {
   logo,
   backend,
@@ -59,5 +59,6 @@ export {
   jobit,
   internet,
   python,
-  firebase
+  firebase,
+  aiblocks
 };
